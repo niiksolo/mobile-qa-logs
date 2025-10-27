@@ -1,7 +1,7 @@
 # 📱 Android Log Analysis Project
 
 **Description:**  
-This project demonstrates the collection and analysis of logs from the Android app `com.strimqa.android.app.strimqa`.
+This project demonstrates the collection and analysis of logs from Android app `StrimQA`
 
 ---
 
