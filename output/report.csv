@@ -1,0 +1,11 @@
+error,count
+"E/BLASTBufferQueue( 7952): [SurfaceView[com.strimqa.android.app.strimqa/com.strimqa.mobile_client.MainActivity]](f:1,a:4) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 4 max:2 + 2",70
+E/ActivityManagerWrapper( 2373): mainTaskId=1391 userId=0 windowMode=1 baseIntent=Intent },18
+W/PackageConfigPersister( 1532): App-specific configuration not found for packageName: com.strimqa.android.app.strimqa and userId: 0,10
+E/ActivityManagerWrapper( 2373): mainTaskId=1392 userId=0 windowMode=1 baseIntent=Intent },9
+W/WindowManager( 1532): finishDrawingWindow: Window mDrawState=DRAW_PENDING,8
+W/WindowManager( 1532): Changing focus from Window to Window displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:557 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6962 com.android.server.wm.WindowManagerService.relayoutWindow:2951 com.android.server.wm.Session.relayout:266,8
+W/MIUISafety-Monitor( 4969): screen share ensure fg = com.strimqa.android.app.strimqa protect = false,5
+"W/Auth : [RequestTokenManager] getToken() -> NEED_REMOTE_CONSENT. App: com.strimqa.android.app.strimqa, Service: oauth2:email https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid profile",5
+W/WindowManager( 1532): Changing focus from null to Window displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:557 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6962 com.android.server.wm.WindowManagerService.relayoutWindow:2951 com.android.server.wm.Session.relayout:266,4
+W/WindowManager( 1532): Changing focus from Window to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:557 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6962 com.android.server.wm.ActivityTaskManagerService.setLastResumedActivityUncheckLocked:5565 com.android.server.wm.ActivityRecord.moveFocusableActivityToTop:4045,4
