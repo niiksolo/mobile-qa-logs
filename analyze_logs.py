@@ -16,9 +16,7 @@ parser.add_argument("--level", type=str, default="E,W", help="Уровни ло�
 parser.add_argument("--top", type=int, default=10, help="Показывать топ-N ошибок")
 args = parser.parse_args()
 
-# -----------------------
-# Подготовка
-# -----------------------
+
 os.makedirs("output", exist_ok=True)
 levels = args.level.split(",")
 error_pattern = re.compile(rf"({'|'.join(levels)})/.+")
@@ -90,4 +88,4 @@ with open(args.csv, "w", newline="", encoding="utf-8") as f:
     writer.writerows(json_list)
 print(f"CSV отчёт: {args.csv}")
 
-print("✅ Готово! Самые частые ошибки выделены.")
+print("Готово! Самые частые ошибки выделены.")
